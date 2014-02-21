@@ -1,0 +1,31 @@
+---
+:source:
+  :path: test
+  :file: test_TryCatch.c
+:successes:
+- :test: test_justTryingOutTryCatch_should_throw_exception
+  :line: 7
+  :message: ''
+- :test: test_addPositiveNumbers_should_add_two_positive_correctly
+  :line: 12
+  :message: ''
+- :test: test_addPositiveNumbers_should_throw_an_exception_indicating_both_value_is_negative
+  :line: 18
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 3
+  :failed: 0
+  :ignored: 0
+:stdout:
+- 'NO_ERROR: 0'
+- 'ERR_FIRST_NUM_NEG: 1'
+- 'ERR_SECOND_NUM_NEG: 2'
+- 'ERR_BOTH_NUMS_NEG: 3'
+- Trying...
+- 'I know you are nasty, but it is fine. '
+- 'an exception has been thrown : 4567 '
+- 'you have rethrown: 45'
+- Hello World!
